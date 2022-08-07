@@ -18,4 +18,4 @@ Clone or download this repository. Then import the file `Octox Labs.postman_coll
 **TOKEN** is your API Token
 
 ## Make API calls
-[![Run in Postman]([https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22690720-1070466e-c46a-4498-820f-6b4e6a59346e?action=collection%2Ffork&collection-url=entityId%3D22690720-1070466e-c46a-4498-820f-6b4e6a59346e%26entityType%3Dcollection%26workspaceId%3D4ecfcd5f-9827-434a-bc37-f6f879b7f910](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22690720-1070466e-c46a-4498-820f-6b4e6a59346e?action=collection%2Ffork&collection-url=entityId%3D22690720-1070466e-c46a-4498-820f-6b4e6a59346e%26entityType%3Dcollection%26workspaceId%3D4ecfcd5f-9827-434a-bc37-f6f879b7f910))
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22690720-1070466e-c46a-4498-820f-6b4e6a59346e?action=collection%2Ffork&collection-url=entityId%3D22690720-1070466e-c46a-4498-820f-6b4e6a59346e%26entityType%3Dcollection%26workspaceId%3D4ecfcd5f-9827-434a-bc37-f6f879b7f910)
