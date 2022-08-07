@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "6cd4e82c-8c19-40d7-9770-e56f614ce2f6",
+		"name": "Octox Labs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Adapters",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Octoxlabs {{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{API_URL}}/adapters/adapters?page=1&search=&size=10",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"adapters",
+						"adapters"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "search",
+							"value": ""
+						},
+						{
+							"key": "size",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Connections",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Octoxlabs {{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{API_URL}}/adapters/connections?adapter=1&page=1&size=10&search=",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"adapters",
+						"connections"
+					],
+					"query": [
+						{
+							"key": "adapter",
+							"value": "1"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "search",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Connection Test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Octoxlabs {{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{API_URL}}/adapters/test/1",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"adapters",
+						"test",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Discoveries",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Octoxlabs {{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{API_URL}}/discoveries/discoveries",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"discoveries",
+						"discoveries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Asset Search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Octoxlabs {{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"query\": \"Adapters = active-directory\",\n    \"fields\": [\"Adapters\", \"Hostname\", \"IpAddresses\"],\n    \"page\": 1,\n    \"size\": 50,\n    \"index_id\": 1,\n    \"ordering\": [{\"field\": \"Adapters\", \"order\": \"desc\"}, {\"field\": \"Hostname\", \"order\": \"asc\"}]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{API_URL}}/assets/assets",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"assets",
+						"assets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Asset Detail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Octoxlabs {{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"index_id\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{API_URL}}/assets/assets/octoxlabs01",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"assets",
+						"assets",
+						"octoxlabs01"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
