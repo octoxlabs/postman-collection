@@ -4,11 +4,10 @@ This is a Postman collection for interacting with Octox Labs Cyber Security Asse
 
 ## Getting Started
 1. Go to my profile
-2. Click my api token "Generate" button
+2. Click my api token and enter the lifetime days (0= unlimited) "Generate" button a
 3. Copy API Token
 4. You must use the generated token to generate "Get Access Token"
-5. 
-You can use variables by assigning them to an environment with get access token, or you can delete the variables and add your own values.
+5. You can use variables by assigning them to an environment with get access token, or you can delete the variables and add your own values.
 
 
 ## Import Collection
