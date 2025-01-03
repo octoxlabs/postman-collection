@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "3e83998b-aecb-4ca2-aa5c-e712f9ab31fc",
+		"_postman_id": "04756670-0ef1-4735-babb-2c0393863f5a",
 		"name": "Octoxlabs Backend",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "18012166",
-		"_collection_link": "https://lively-robot-770279.postman.co/workspace/Octoxlabs~e398e720-ff14-41ac-b006-a9ac8be2aa95/collection/1399210-3e83998b-aecb-4ca2-aa5c-e712f9ab31fc?action=share&source=collection_link&creator=18012166"
+		"_exporter_id": "40166516"
 	},
 	"item": [
 		{
@@ -162,8 +161,8 @@
 									},
 									{
 										"key": "Content-Type",
-										"name": "Content-Type",
 										"value": "application/json",
+										"name": "Content-Type",
 										"type": "text"
 									}
 								],
@@ -495,7 +494,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -1098,7 +1097,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -1701,7 +1700,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -2416,7 +2415,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -3228,7 +3227,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -3751,7 +3750,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
